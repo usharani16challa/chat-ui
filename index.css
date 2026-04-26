@@ -1,0 +1,92 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App container */
+.app {
+  width: 420px;
+  height: 600px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header */
+.app h2 {
+  text-align: center;
+  padding: 12px;
+  background: #4a90e2;
+  color: white;
+}
+
+/* Chat box */
+.chat-box {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Messages */
+.message {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 75%;
+}
+
+/* User */
+.user {
+  background: #4caf50;
+  color: white;
+  align-self: flex-end;
+}
+
+/* Bot */
+.bot {
+  background: #e5e5e5;
+  color: black;
+  align-self: flex-start;
+}
+
+/* Input box */
+.input-box {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+button {
+  margin-left: 8px;
+  padding: 10px 14px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
